@@ -11,6 +11,7 @@ This library should be considered alpha, and not stable. Breaking changes will h
 You just have to pass `echo()`  into the `Store` init.
 
 ```swift
+import Swidux
 import SwiduxEcho
 
 let store = Store<AppState>(
