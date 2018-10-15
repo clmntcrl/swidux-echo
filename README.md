@@ -35,4 +35,4 @@ let package = Package(
 
 ## License
 
-SwiduxEcho is released under the MIT license. See [LICENSE](LICENSE]) for details.
+SwiduxEcho is released under the MIT license. See [LICENSE](LICENSE) for details.
