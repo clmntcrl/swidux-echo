@@ -1,6 +1,6 @@
 # SwiduxEcho
 
-This is the first middleware built for Swidux. It's a simple logger which print action and updated Swidux's store in the console. 
+This is the first middleware built for [Swidux](https://github.com/clmntcrl/swidux). It's a simple logger which print action and updated Swidux's store in the console. 
 
 ## Stability
 
