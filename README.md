@@ -31,8 +31,6 @@ Add the following dependency to your Cartfile:
 github "clmntcrl/swidux-echo" ~> 0.1.0
 ```
 
-Then run:
-
 ```
 $ carthage update
 ```
@@ -55,8 +53,6 @@ let package = Package(
     ]
 )
 ```
-
-Then run:
 
 ```
 $ swift build
