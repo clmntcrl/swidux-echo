@@ -23,14 +23,43 @@ let store = Store<AppState>(
 
 ## Installation
 
+### [Carthage](https://github.com/Carthage/Carthage)
+
+Add the following dependency to your Cartfile:
+
+```
+github "clmntcrl/swidux-echo" ~> 0.1.0
+```
+
+Then run:
+
+```
+$ carthage update
+```
+
+
+### [SwiftPM](https://github.com/apple/swift-package-manager)
+
+Add package as dependency:
+
 ```swift
 import PackageDescription
 
 let package = Package(
+    name: "AwesomeProjectName",
     dependencies: [
-        .package(url: "https://github.com/clmntcrl/swidux-echo.git", .branch("master")),
+        .package(url: "https://github.com/clmntcrl/swidux-echo.git", from: "0.1.0"),
+    ],
+    targets: [
+        .target(name: "AwesomeProjectName", dependencies: ["SwiduxEcho"])
     ]
 )
+```
+
+Then run:
+
+```
+$ swift build
 ```
 
 ## License
