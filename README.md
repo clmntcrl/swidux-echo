@@ -35,11 +35,11 @@ github "clmntcrl/swidux-echo" ~> 0.1.0
 $ carthage update
 ```
 
-You should encounter an issue because libraries using SwiftPM are not currently supported by Carthage. This can be resolved with the following: 
+You should encounter an issue (something like `Dependency "swidux-echo" has no shared framework schemes`) because libraries using SwiftPM are not currently supported by Carthage. This can be resolved with the following: 
 
 ```
 $ (cd Carthage/Checkouts/swidux-echo && swift package generate-xcodeproj)
-$ carthage build
+$ carthage build swidux-echo
 ```
 
 
