@@ -5,9 +5,9 @@
         "package": "Swidux",
         "repositoryURL": "https://github.com/clmntcrl/swidux.git",
         "state": {
-          "branch": "master",
-          "revision": "bbd10ae330c45ee4f9d3ecd39eb4609ede4d27e2",
-          "version": null
+          "branch": null,
+          "revision": "3558c31dc50869ac2c1aba88240438c9e26f35d0",
+          "version": "0.1.0"
         }
       }
     ]
