@@ -28,7 +28,7 @@ let store = Store<AppState>(
 Add the following dependency to your Cartfile:
 
 ```
-github "clmntcrl/swidux-echo" ~> 0.1.0
+github "clmntcrl/swidux-echo" ~> 0.1.1
 ```
 
 ```
@@ -53,10 +53,11 @@ import PackageDescription
 let package = Package(
     name: "AwesomeProjectName",
     dependencies: [
-        .package(url: "https://github.com/clmntcrl/swidux-echo.git", from: "0.1.0"),
+        .package(url: "https://github.com/clmntcrl/swidux.git", from: "0.1.1"),
+        .package(url: "https://github.com/clmntcrl/swidux-echo.git", from: "0.1.1"),
     ],
     targets: [
-        .target(name: "AwesomeProjectName", dependencies: ["SwiduxEcho"])
+        .target(name: "AwesomeProjectName", dependencies: ["Swidux", "SwiduxEcho"])
     ]
 )
 ```
