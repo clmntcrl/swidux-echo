@@ -21,51 +21,6 @@ let store = Store<AppState>(
 )
 ```
 
-## Installation
-
-### [Carthage](https://github.com/Carthage/Carthage)
-
-Add the following dependency to your Cartfile:
-
-```
-github "clmntcrl/swidux-echo" ~> 0.1.1
-```
-
-```
-$ carthage update
-```
-
-You should encounter an issue (something like `Dependency "swidux-echo" has no shared framework schemes`) because libraries using SwiftPM are not currently supported by Carthage. This can be resolved with the following: 
-
-```
-$ (cd Carthage/Checkouts/swidux-echo && swift package generate-xcodeproj)
-$ carthage build swidux-echo
-```
-
-
-### [SwiftPM](https://github.com/apple/swift-package-manager)
-
-Add package as dependency:
-
-```swift
-import PackageDescription
-
-let package = Package(
-    name: "AwesomeProjectName",
-    dependencies: [
-        .package(url: "https://github.com/clmntcrl/swidux.git", from: "0.1.1"),
-        .package(url: "https://github.com/clmntcrl/swidux-echo.git", from: "0.1.1"),
-    ],
-    targets: [
-        .target(name: "AwesomeProjectName", dependencies: ["Swidux", "SwiduxEcho"])
-    ]
-)
-```
-
-```
-$ swift build
-```
-
 ## License
 
 SwiduxEcho is released under the MIT license. See [LICENSE](LICENSE) for details.
