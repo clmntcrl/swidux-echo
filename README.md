@@ -2,10 +2,6 @@
 
 This is the first middleware built for [Swidux](https://github.com/clmntcrl/swidux). It's a simple logger which print action and updated Swidux's store in the console. 
 
-## Stability
-
-This library should be considered alpha, and not stable. Breaking changes will happen often.
-
 ## Usage
 
 You just have to pass `echo()`  into the `Store` init.
@@ -19,6 +15,34 @@ let store = Store<AppState>(
     reducer: reducer,
     middlewares: [ echo() ]
 )
+```
+
+## Installation
+
+### [Carthage](https://github.com/Carthage/Carthage)
+
+Add the following dependency to your `Cartfile`:
+
+```ruby
+github "clmntcrl/swidux-echo" ~> 0.2
+```
+
+### [CocoaPods](https://cocoapods.org)
+
+Add the following pod to your `Podfile`:
+
+```ruby
+pod 'SwiduxEcho', '~> 0.2'
+```
+
+### [SwiftPM](https://github.com/apple/swift-package-manager)
+
+Add the package as dependency in your `Package.swift`:
+
+```swift
+dependencies: [
+    .package(url: "https://github.com/clmntcrl/swidux-echo.git", from: "0.2.0"),
+]
 ```
 
 ## License
