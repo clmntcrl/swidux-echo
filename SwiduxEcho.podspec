@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "SwiduxEcho"
-  s.version      = "1.0.0"
+  s.version      = "0.2.0"
   s.summary      = "Logger middleware for Swidux."
 
   s.homepage     = "https://github.com/clmntcrl/swidux-echo"
