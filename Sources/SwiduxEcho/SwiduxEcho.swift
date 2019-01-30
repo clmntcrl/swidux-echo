@@ -8,16 +8,14 @@ private let echoQueue = DispatchQueue(label: "io.clmntcrl.echo-queue", qos: .uti
 
 
 public func echo<AppState>() -> Middleware<AppState> {
-    return Middleware { store, action in
-        #if DEBUG
-            // Copy state
-            let state = store.state
-            // Dispatch logging closure on the echo queue
-            echoQueue.async {
-                print("\n\(action)\n")
-                dump(state)
+    return Middleware { store in
+        return { dispach in
+            return { action in
+                print("\n[ACTION] \(action)\n")
+                dispach(action)
+                dump(store.getState())
                 print("\n")
             }
-        #endif
+        }
     }
 }
