@@ -9,14 +9,20 @@
 /* Begin PBXBuildFile section */
 		0B71C1F4F0DAA84C0636F91E11F484B6 /* SwiduxEchoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3316D4274AA9EB57911D9C2B4EF42F /* SwiduxEchoTests.swift */; };
 		0DBA039D19D2FFEC21AB094450E164FC /* SwiduxEcho.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 953D4FD3FF9B66011BA08D769E30A549 /* SwiduxEcho.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		207DA2102B2E12DEB4F64F9B768B311F /* Swidux.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EBC774E9DF0DFA5A925089EAC514704 /* Swidux.framework */; };
+		285321F3A22B2E725FC46E626A51CA0F /* Swidux.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 92C8F57DDBD97BD08C56A1542ADB675B /* Swidux.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		553CBAED97027EA713DE496D21923889 /* SwiduxEcho.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961912B2DE410A627362F05CF5EF6EC7 /* SwiduxEcho.swift */; };
 		697E88AF8B347E5172756DF3A063215E /* SwiduxEcho.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6618678269A88EA8C3AEA97FC0D26B35 /* SwiduxEcho.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		75990E7E532FFB9E027485060DAE4606 /* SwiduxEchoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3316D4274AA9EB57911D9C2B4EF42F /* SwiduxEchoTests.swift */; };
 		86D900704930EAEA954F50621127BAC4 /* SwiduxEchoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3316D4274AA9EB57911D9C2B4EF42F /* SwiduxEchoTests.swift */; };
 		A2E1BA1530B200167905963BEEC685ED /* SwiduxEcho.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 70CF378F8D432E50137AF9D4581DD5D8 /* SwiduxEcho.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B1B231C349DAB6B16C63DAB838638C94 /* Swidux.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C8E0653D5B24893593BA9475065C049 /* Swidux.framework */; };
 		C20B40F9914F8E133DBDF8167B02FD91 /* SwiduxEcho.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70CF378F8D432E50137AF9D4581DD5D8 /* SwiduxEcho.framework */; };
+		D49396AAB06574D283916E36641776C9 /* Swidux.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7EBC774E9DF0DFA5A925089EAC514704 /* Swidux.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D50848B6A80E4FAC4223E2A5672F0C63 /* SwiduxEcho.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6618678269A88EA8C3AEA97FC0D26B35 /* SwiduxEcho.framework */; };
 		E1E56F18C1679D79B2682AF8A5A409A2 /* SwiduxEcho.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 953D4FD3FF9B66011BA08D769E30A549 /* SwiduxEcho.framework */; };
+		E469B1ED1CF218F7A4BC06C1AF856BAC /* Swidux.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5C8E0653D5B24893593BA9475065C049 /* Swidux.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E8649F403A0F406433E8E9EC9837AD17 /* Swidux.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92C8F57DDBD97BD08C56A1542ADB675B /* Swidux.framework */; };
 		F528A104558C0DACA00599E7AFE7FD3B /* SwiduxEcho.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961912B2DE410A627362F05CF5EF6EC7 /* SwiduxEcho.swift */; };
 		F9721446D6EFAE30405D79C434CECF1D /* SwiduxEcho.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961912B2DE410A627362F05CF5EF6EC7 /* SwiduxEcho.swift */; };
 /* End PBXBuildFile section */
@@ -53,6 +59,7 @@
 			dstSubfolderSpec = 10;
 			files = (
 				697E88AF8B347E5172756DF3A063215E /* SwiduxEcho.framework in Embed Frameworks */,
+				D49396AAB06574D283916E36641776C9 /* Swidux.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -64,6 +71,7 @@
 			dstSubfolderSpec = 10;
 			files = (
 				0DBA039D19D2FFEC21AB094450E164FC /* SwiduxEcho.framework in Embed Frameworks */,
+				E469B1ED1CF218F7A4BC06C1AF856BAC /* Swidux.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -75,6 +83,7 @@
 			dstSubfolderSpec = 10;
 			files = (
 				A2E1BA1530B200167905963BEEC685ED /* SwiduxEcho.framework in Embed Frameworks */,
+				285321F3A22B2E725FC46E626A51CA0F /* Swidux.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -82,10 +91,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5C8E0653D5B24893593BA9475065C049 /* Swidux.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Swidux.framework; sourceTree = "<group>"; };
 		6148D07D4A7BB60CFF62C5F8D6C9C461 /* SwiduxEchoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiduxEchoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6618678269A88EA8C3AEA97FC0D26B35 /* SwiduxEcho.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiduxEcho.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		70CF378F8D432E50137AF9D4581DD5D8 /* SwiduxEcho.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiduxEcho.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EBC774E9DF0DFA5A925089EAC514704 /* Swidux.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Swidux.framework; sourceTree = "<group>"; };
 		8944E02CAC251350E2FE38DCB635EABA /* SwiduxEchoTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = SwiduxEchoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		92C8F57DDBD97BD08C56A1542ADB675B /* Swidux.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Swidux.framework; sourceTree = "<group>"; };
 		953D4FD3FF9B66011BA08D769E30A549 /* SwiduxEcho.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiduxEcho.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		961912B2DE410A627362F05CF5EF6EC7 /* SwiduxEcho.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiduxEcho.swift; sourceTree = "<group>"; };
 		ADCB5F33B2EB2DCCE8495CA0BEED60E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -95,6 +107,22 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0CA46FD81588684042FA80DC74224384 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8649F403A0F406433E8E9EC9837AD17 /* Swidux.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26B0174C87F000A9AA1F01433194CE90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1B231C349DAB6B16C63DAB838638C94 /* Swidux.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		80DC18F326E5F8BE23931FC957504C6A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -108,6 +136,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				D50848B6A80E4FAC4223E2A5672F0C63 /* SwiduxEcho.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4229A2FFEBAB24A67822921B03BA17D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				207DA2102B2E12DEB4F64F9B768B311F /* Swidux.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,6 +167,25 @@
 			path = Sources;
 			sourceTree = "<group>";
 		};
+		2F0408276D7F98E9641E95EBDB227C52 /* Carthage */ = {
+			isa = PBXGroup;
+			children = (
+				CCAF536F95FC463A7F08919CFCEF0A15 /* iOS */,
+				858A5F4B890E7ABFA8157D9E1ED09898 /* Mac */,
+				3DD521BF1478F3DB2E275A97FCCC3719 /* tvOS */,
+			);
+			name = Carthage;
+			path = Carthage/Build;
+			sourceTree = "<group>";
+		};
+		3DD521BF1478F3DB2E275A97FCCC3719 /* tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				7EBC774E9DF0DFA5A925089EAC514704 /* Swidux.framework */,
+			);
+			path = tvOS;
+			sourceTree = "<group>";
+		};
 		4413D011B2A69BCACD35B80B0157A029 /* SwiduxEcho */ = {
 			isa = PBXGroup;
 			children = (
@@ -144,12 +199,21 @@
 			children = (
 				1EA7A245A4414F75510B7F285839508E /* Sources */,
 				8C8AA82C5F7A5E114C7209601EDE3D97 /* Tests */,
+				CE7725E6754B87A8FA5D7E600E0197EF /* Frameworks */,
 				B3EEB7F587C02EF913AF03A7F0E842C0 /* Products */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
 			tabWidth = 2;
 			usesTabs = 0;
+		};
+		858A5F4B890E7ABFA8157D9E1ED09898 /* Mac */ = {
+			isa = PBXGroup;
+			children = (
+				92C8F57DDBD97BD08C56A1542ADB675B /* Swidux.framework */,
+			);
+			path = Mac;
+			sourceTree = "<group>";
 		};
 		8C8AA82C5F7A5E114C7209601EDE3D97 /* Tests */ = {
 			isa = PBXGroup;
@@ -181,6 +245,22 @@
 			path = SwiduxEchoTests;
 			sourceTree = "<group>";
 		};
+		CCAF536F95FC463A7F08919CFCEF0A15 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5C8E0653D5B24893593BA9475065C049 /* Swidux.framework */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		CE7725E6754B87A8FA5D7E600E0197EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F0408276D7F98E9641E95EBDB227C52 /* Carthage */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -189,6 +269,7 @@
 			buildConfigurationList = C92E95A974E9731BA3F03DE872EAF978 /* Build configuration list for PBXNativeTarget "SwiduxEcho_iOS" */;
 			buildPhases = (
 				F329ED572C9160F30FE6665EA7592D44 /* Sources */,
+				26B0174C87F000A9AA1F01433194CE90 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -204,6 +285,7 @@
 			buildConfigurationList = FE8AA663B46C98995AC99F74F72C9377 /* Build configuration list for PBXNativeTarget "SwiduxEcho_tvOS" */;
 			buildPhases = (
 				27787B41E414673F860414A552C13968 /* Sources */,
+				A4229A2FFEBAB24A67822921B03BA17D /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -237,6 +319,7 @@
 			buildConfigurationList = A56277918C8B30259CE81583D927664D /* Build configuration list for PBXNativeTarget "SwiduxEcho_macOS" */;
 			buildPhases = (
 				605C6C1BF2A724B02BBBFF54A511A4F0 /* Sources */,
+				0CA46FD81588684042FA80DC74224384 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -387,6 +470,10 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.clmntcrl.SwiduxEchoTests-macOS";
@@ -404,7 +491,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = "$(inherited) $(PLATFORM_DIR)/Developer/Library/Frameworks";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited) $(PLATFORM_DIR)/Developer/Library/Frameworks",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
 				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -421,6 +511,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.clmntcrl.SwiduxEchoTests-iOS";
@@ -439,7 +533,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = "$(inherited) $(PLATFORM_DIR)/Developer/Library/Frameworks";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited) $(PLATFORM_DIR)/Developer/Library/Frameworks",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -456,6 +553,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.clmntcrl.SwiduxEchoTests-tvOS";
@@ -474,7 +575,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = "$(inherited) $(PLATFORM_DIR)/Developer/Library/Frameworks";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited) $(PLATFORM_DIR)/Developer/Library/Frameworks",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -557,7 +661,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = "$(inherited) $(PLATFORM_DIR)/Developer/Library/Frameworks";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited) $(PLATFORM_DIR)/Developer/Library/Frameworks",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
 				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -574,6 +681,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.clmntcrl.SwiduxEchoTests-tvOS";
@@ -593,7 +704,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = "$(inherited) $(PLATFORM_DIR)/Developer/Library/Frameworks";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited) $(PLATFORM_DIR)/Developer/Library/Frameworks",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
@@ -668,7 +782,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = "$(inherited) $(PLATFORM_DIR)/Developer/Library/Frameworks";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited) $(PLATFORM_DIR)/Developer/Library/Frameworks",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
@@ -685,6 +802,10 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.clmntcrl.SwiduxEchoTests-macOS";
@@ -697,6 +818,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.clmntcrl.SwiduxEchoTests-iOS";

@@ -17,6 +17,8 @@ targets:
             testTargets: [SwiduxEchoTests_$platform]
         sources: [Sources]
         type: framework
+        dependencies:
+            - carthage: Swidux
     SwiduxEchoTests:
         dependencies: [{target: SwiduxEcho_$platform}]
         platform: [macOS, iOS, tvOS]

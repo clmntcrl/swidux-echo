@@ -1,5 +1,8 @@
-## Swift Package Manage
+## Swift Package Manager
 .build/
+
+## Carthage
+Carthage/
 
 ## Playgrounds
 timeline.xctimeline
