@@ -202,9 +202,9 @@
 				CE7725E6754B87A8FA5D7E600E0197EF /* Frameworks */,
 				B3EEB7F587C02EF913AF03A7F0E842C0 /* Products */,
 			);
-			indentWidth = 2;
+			indentWidth = 4;
 			sourceTree = "<group>";
-			tabWidth = 2;
+			tabWidth = 4;
 			usesTabs = 0;
 		};
 		858A5F4B890E7ABFA8157D9E1ED09898 /* Mac */ = {
