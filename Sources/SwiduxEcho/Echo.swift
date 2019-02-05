@@ -6,15 +6,17 @@ import Swidux
 
 private let echoQueue = DispatchQueue(label: "io.clmntcrl.echo-queue", qos: .utility)
 
-
 public func echo<AppState>() -> Middleware<AppState> {
     return Middleware { store in
         return { dispach in
             return { action in
-                print("\n[ACTION] \(action)\n")
                 dispach(action)
-                dump(store.getState())
-                print("\n")
+                print("""
+
+                ▹ \(snap(action).dropFirst(2))
+                \(snap(store.getState()))
+
+                """)
             }
         }
     }
