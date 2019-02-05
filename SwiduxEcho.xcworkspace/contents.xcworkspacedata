@@ -13,4 +13,11 @@
    <FileRef
       location = "group:SwiduxEcho.xcodeproj">
    </FileRef>
+   <Group
+      location = "container:"
+      name = "Dependencies">
+      <FileRef
+         location = "group:Carthage/Checkouts/swidux/Swidux.xcodeproj">
+      </FileRef>
+   </Group>
 </Workspace>
